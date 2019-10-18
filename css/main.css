@@ -159,6 +159,21 @@ p {
 .show-mobile-menu {
   display: none;
 }
+
+/* ABOUT STYLES */
+.about-container {
+	text-align: center;
+}
+.prof-img {
+	margin: 3em auto 2em;
+}
+.prof-img img {
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	width: 150px;
+}
+
 /* POST STYLES */
 .post-body {
 	max-width: 550px;
