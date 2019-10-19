@@ -17,8 +17,3 @@ One book I would be getting is [This](https://www.amazon.co.jp/JavaScript-Parts-
 Although it is said to be a bit old-dated, I think it must be a good one.
 
 So I want to learn more about JavaScript so that I would get more skills to code clean and beautifylly.
-
----
-## Today's counseling
-
-I have been to a counseling institute
