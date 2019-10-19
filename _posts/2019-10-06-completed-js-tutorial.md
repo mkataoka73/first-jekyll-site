@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I finished today the Learn Enough JS to Be Dangerous!
+title: Completed LEJS tutorial
 author: Masayoshi Kataoka
 date: 2019-10-06
 ---
@@ -21,4 +21,4 @@ So I want to learn more about JavaScript so that I would get more skills to code
 ---
 ## Today's counseling
 
-I have been to a counseling institute 
+I have been to a counseling institute
