@@ -178,13 +178,11 @@ p {
 .post-body {
 	max-width: 550px;
 }
-/* BLOG STYLES */
-
 .posts-wrapper :first-child {
  margin-top: 3em;
 }
-.blog-post ~ .blog-post {
- margin-top: 6em;
+.blog-post .entry-title {
+	letter-spacing: 0.3px;
 }
 .blog-post .blog-hero {
  height: 40vh;
