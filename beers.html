@@ -12,16 +12,11 @@ title: beers
     {% for beer in beers limit:9 %}
       <div class="beer-box">
         <a href="{{ beer.url }}">
-          <img src="{{ beer.image_path }}" alt="{{ beer.name }}">
+          <img src="/images/beer_tap.svg" alt="{{ beer.title }}">
         </a>
-        {% if beer.instructor == 1 %}
-          <h4 class="instructor">{{ beer.name }}</h4>
-        {% else %}
-          <h4>{{ beer.name }}</h4>
-        {% endif %}
+        <h4>{{ beer.name }}</h4>
         <div class="beer-copy">
           {{ beer.excerpt }}
-          Love: {{ beer.love }}
         </div>
       </div>
     {% endfor %}

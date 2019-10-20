@@ -10,3 +10,5 @@ timezone: Asia/Tokyo
 collections:
    beers:
      output: true
+   books:
+     output: true
