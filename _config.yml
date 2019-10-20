@@ -1,0 +1,12 @@
+title: My Personal Site
+email: mkataoka73@gmail.com
+description:
+
+url: "https://jlmercury.github.io"
+
+future: true
+timezone: Asia/Tokyo
+
+collections:
+   beers:
+     output: true
