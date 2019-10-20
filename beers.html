@@ -2,9 +2,31 @@
 layout: default
 title: beers
 ---
-<div class="beer-img">
-  <img src="{{ page.image_path }}" alt="{{ page.title }}">
-</div>
-<div class="beer-name">
+<div class="container beers-container">
+  <div class="title">
+    <h1>My Fav Beers</h1>
+  </div>
 
-</div>
+  <div class="body beers-wrapper">
+    {% assign beers = site.beers %}
+    {% for beer in beers limit:9 %}
+      <div class="beer-box">
+        <a href="{{ beer.url }}">
+          <img src="{{ beer.image_path }}" alt="{{ beer.name }}">
+        </a>
+        {% if beer.instructor == 1 %}
+          <h4 class="instructor">{{ beer.name }}</h4>
+        {% else %}
+          <h4>{{ beer.name }}</h4>
+        {% endif %}
+        <div class="beer-copy">
+          {{ beer.excerpt }}
+          Love: {{ beer.love }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>
