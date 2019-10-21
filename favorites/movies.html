@@ -1,0 +1,27 @@
+---
+layout: default
+title: movies
+---
+<div class="container movies-container favs-container">
+  <div class="title">
+    <h1>My Fav Movies</h1>
+  </div>
+
+  <div class="body favs-wrapper">
+    {% assign movies = site.movies %}
+    {% for movie in movies limit:9 %}
+      <div class="movie-box fav-box">
+        <a class="link-icon" href="{{ movie.url }}">
+          <img src="/images/video-camera.svg" alt="{{ movie.title }}">
+        </a>
+        <h4>{{ movie.name }}</h4>
+        <div class="movie-copy fav-copy">
+          {{ movie.excerpt }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>
