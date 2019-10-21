@@ -13,6 +13,10 @@ body {
   width: 75%;
 }
 
+.text-area {
+  max-width: 600px;
+}
+
 a {
   border-radius: 1.5px;
   color: #43853d;
