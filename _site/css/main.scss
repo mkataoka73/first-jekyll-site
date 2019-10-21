@@ -239,9 +239,6 @@ p {
 
 .fav-box {
   align-items: center;
-
-  /* box-sizing: content-box; */
-  /* border: 1px solid #aaa; */
   flex: 0 1 auto;
   height: 50%;
   margin-bottom: 6em;
@@ -257,6 +254,7 @@ p {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    max-width: 200px;
   }
 
   h4 {
