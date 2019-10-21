@@ -4,9 +4,13 @@
   <a class="drop-trigger" href="/favorites/index.html">Favorites</a>
   <ul class="drop-menu">
     <li>Category</li>
-    <li><a href="/favorites/beers.html">Beers</a></li>
-    <li><a href="/favorites/books.html">Books</a></li>
-    <li><a href="/favorites/musics.html">Music</a></li>
+    {% for col in site.collections %}
+      {% if col.label == 'posts' %}
+        {% continue %}
+      {% else %}
+      <li><a href="{{ col.url }}">{{ col.label }}</a></li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </li>
 <li class="dropdown">

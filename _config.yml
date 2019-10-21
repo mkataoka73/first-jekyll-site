@@ -12,9 +12,13 @@ collections_dir: collections
 collections:
    beers:
      output: true
+     url: /favorites/beers.html
    books:
      output: true
+     url: /favorites/books.html
    musics:
      output: true
+     url: /favorites/musics.html
    movies:
      output: true
+     url: /favorites/movies.html

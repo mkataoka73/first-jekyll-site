@@ -12,7 +12,7 @@ title: beers
     {% for beer in beers limit:9 %}
       <div class="beer-box fav-box">
         <a class="link-icon" href="{{ beer.url }}">
-          <img src="/images/beer_tap.svg" alt="{{ beer.title }}">
+          <img src="{{ beer.image_path }}" alt="{{ beer.title }}">
         </a>
         <h4>{{ beer.name }}</h4>
         <div class="beer-copy fav-copy">
