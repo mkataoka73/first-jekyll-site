@@ -11,7 +11,7 @@ body {
 
 .container {
   margin: auto;
-  max-width: 600px;
+  // max-width: 600px;
   width: 75%;
 }
 
@@ -29,6 +29,9 @@ a {
   &:hover {
     background-color: #43853d;
     color: #fff;
+  }
+  &.link-icon:hover {
+    background-color: none;
   }
 }
 

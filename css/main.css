@@ -10,7 +10,6 @@ body {
 
 .container {
   margin: auto;
-  max-width: 600px;
   width: 75%;
 }
 
@@ -27,6 +26,9 @@ a:visited {
 a:hover {
   background-color: #43853d;
   color: #fff;
+}
+a.link-icon:hover {
+  background-color: inherit;
 }
 
 p {
