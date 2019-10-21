@@ -11,7 +11,7 @@ title: books
     {% assign books = site.books %}
     {% for book in books limit:9 %}
       <div class="book-box fav-box">
-        <a href="{{ book.url }}">
+        <a class="link-icon" href="{{ book.url }}">
           <img src="/images/open-book.svg" alt="{{ book.title }}">
         </a>
         <h4>{{ book.name }}</h4>
