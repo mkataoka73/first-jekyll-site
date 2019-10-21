@@ -1,0 +1,27 @@
+---
+layout: default
+title: musics
+---
+<div class="container musics-container favs-container">
+  <div class="title">
+    <h1>My Fav musics</h1>
+  </div>
+
+  <div class="body favs-wrapper">
+    {% assign musics = site.musics %}
+    {% for music in musics limit:9 %}
+      <div class="music-box fav-box">
+        <a href="{{ music.url }}">
+          <img src="/images/speaker.svg" alt="{{ music.title }}">
+        </a>
+        <h4>{{ music.name }}</h4>
+        <div class="music-copy fav-copy">
+          {{ music.excerpt }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>

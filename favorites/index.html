@@ -1,0 +1,37 @@
+---
+layout: default
+title: my collections
+---
+<div class="title">
+  <h1 class="page-title">My Favorites</h1>
+</div>
+<div class="body favs-wrapper">
+  <div class="beer-box fav-box">
+    <a href="/favorites/beers.html">
+      <img src="/images/beer_tap.svg" alt="{{ beer.title }}">
+    </a>
+    <h4>BEERS</h4>
+    <div class="beer-copy">
+      {{ beer.excerpt }}
+    </div>
+  </div>
+  <div class="book-box fav-box">
+    <a href="/favorites/books.html">
+      <img src="/images/open-book.svg" alt="{{ book.title }}">
+    </a>
+    <h4>BOOKS</h4>
+    <h4>{{ book.author }}</h4>
+    <div class="book-copy fav-copy">
+      {{ book.excerpt }}
+    </div>
+  </div>
+  <div class="music-box fav-box">
+    <a href="/favorites/musics.html">
+      <img src="/images/loudspeaker.svg" alt="{{ music.title }}">
+    </a>
+    <h4>MUSICS</h4>
+    <div class="music-copy fav-copy">
+      {{ music.excerpt }}
+    </div>
+  </div>
+</div>

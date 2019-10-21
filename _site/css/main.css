@@ -181,17 +181,14 @@ p {
 }
 
 /* BEERS & BOOKS STYLES */
-.beers-container,
-.books-container {
+.favs-container {
   padding: 15px 0;
 }
-.beers-container p,
-.books-container p {
+.favs-container p {
   text-align: center;
 }
 
-.beers-wrapper,
-.books-wrapper {
+.favs-wrapper {
   /* border: 1px solid #aaa; */
   display: flex;
   flex-direction: row;
@@ -200,8 +197,7 @@ p {
   padding: 10px 10px;
 }
 
-.beer-box,
-.book-box {
+.fav-box {
   align-items: center;
   /* box-sizing: content-box; */
   /* border: 1px solid #aaa; */
@@ -213,8 +209,7 @@ p {
   padding: 10px;
   width: 30%;
 }
-.beer-box img,
-.book-box img {
+.fav-box img {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -222,18 +217,14 @@ p {
   width: 100%;
   object-fit: cover;
 }
-.beer-box h4,
-.book-box h4 {
+.fav-box h4 {
   font-size: 0.7em;
   font-weight: bolder;
   margin-bottom: 0;
   text-align: center;
   text-transform: capitalize;
 }
-.beer-box .beer-copy,
-.beer-box .book-copy,
-.book-box .beer-copy,
-.book-box .book-copy {
+.fav-box .fav-copy {
   text-align: center;
   font-size: 8px;
 }

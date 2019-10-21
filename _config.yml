@@ -12,3 +12,5 @@ collections:
      output: true
    books:
      output: true
+   musics:
+     output: true
