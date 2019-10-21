@@ -1,8 +1,3 @@
-/* FONT INCLUDE */
-@font-face {
-  font-family: 'Lato', 'Open-Sans';
-}
-
 body {
   background-color: #eee;
   color: rgba(51, 51, 51, 1);
@@ -201,6 +196,11 @@ p {
   display: none;
 }
 
+// HOMEPAGE STYLES
+.entry-title--home {
+  // text-align: left;
+}
+
 /* ABOUT STYLES */
 
 .about-container {
@@ -272,9 +272,16 @@ p {
 }
 
 /* ITEM STYLES */
+.item-wrapper {
+  width: 70%;
+  margin:auto;
+}
 .item-img {
-	width: 50%;
-	margin: auto;
+  text-align: center;
+}
+.item-img img {
+  display: inline-block;
+  width: 50%;
 }
 
 /* BLOG STYLES */
@@ -350,5 +357,10 @@ p {
 
   p, a {
     font-size: 0.5em;
+  }
+}
+@media (max-width:500px) {
+  .container {
+    width: 95%;
   }
 }

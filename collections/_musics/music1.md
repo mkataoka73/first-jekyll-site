@@ -1,7 +1,7 @@
 ---
 layout: item
 name: music title
-image_path: /images/speaker.svg
+image_path: /images/loudspeaker.svg
 index: 1
 ---
 Lorem

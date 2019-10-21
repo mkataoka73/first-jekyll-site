@@ -7,6 +7,8 @@ url: "https://jlmercury.github.io"
 future: true
 timezone: Asia/Tokyo
 
+collections_dir: collections
+
 collections:
    beers:
      output: true
