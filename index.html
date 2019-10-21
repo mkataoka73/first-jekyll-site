@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h1>my personal site</h1>
-<div class="posts">
+<h1 class="title">My Site</h1>
+<div class="posts text-area">
   <h2>Posts</h2>
   {% for post in site.posts limit:3 %}
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
