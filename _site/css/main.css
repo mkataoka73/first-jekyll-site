@@ -168,7 +168,7 @@ p {
   font-weight: normal;
   padding: 0.5em 2em 0.5em 1em;
   text-align: left;
-  text-transform: none;
+  text-transform: capitalize;
   white-space: nowrap;
 }
 .drop-menu a:hover {

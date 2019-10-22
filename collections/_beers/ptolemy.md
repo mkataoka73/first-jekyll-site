@@ -4,7 +4,7 @@ name: Ptolemy
 brewery: Nara Brewing
 style: Saison
 image_path: /images/beers/ptolemy.jpg
-drink_date: 2019-1-24
+drink_date: 2019-01-24
 index: 3
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
