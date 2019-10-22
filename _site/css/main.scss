@@ -7,7 +7,7 @@ body {
 .container {
   margin: auto;
   // max-width: 600px;
-  width: 75%;
+  width: 90%;
 }
 .text-area {
   max-width: 600px;
@@ -15,6 +15,13 @@ body {
 }
 .title {
   text-align: center;
+}
+.center {
+  text-align: center;
+}
+.circle {
+  border-radius: 50%;
+  margin: 1.5em auto 2em;
 }
 
 a {
@@ -41,7 +48,6 @@ p {
   color: rgb(4, 4, 4);
   font-family: 'Noto Sans', sans-serif;
   font-size: 0.85em;
-
   /* letter-spacing: 0.1px; */
   padding: 0.1rem;
 }
@@ -218,7 +224,7 @@ p {
   }
 }
 
-/* BEERS & BOOKS STYLES */
+/* FAVORITES STYLES */
 
 .favs-container {
   padding: 15px 0;
@@ -241,28 +247,36 @@ p {
   align-items: center;
   flex: 0 1 auto;
   height: 50%;
-  margin-bottom: 6em;
+  margin: 0 1.5em 3em;
   max-width: 250px;
   min-height: 250px;
   padding: 10px;
-  width: 30%;
+  width: 200px;
 
   img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    height: 20vw;
+    width: 20vw;
     object-fit: cover;
     max-width: 200px;
+    max-height: 200px;
   }
 
-  h4 {
-    font-size: 0.7em;
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85em;
     font-weight: bolder;
     margin-bottom: 0;
     text-align: center;
-    text-transform: capitalize;
+  }
+
+  h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7em;
+    margin: 1em auto 2.5em;
+    text-align: center;
   }
 
 	.fav-copy {
@@ -280,8 +294,22 @@ p {
   text-align: center;
 }
 .item-img img {
+  border-radius: 50%;
   display: inline-block;
-  width: 50%;
+  width: 40vw;
+  height: 40vw;
+  object-fit: cover;
+  max-width: 400px;
+  max-height: 400px;
+}
+.description {
+  text-align: justify;
+  margin-top: 1em;
+}
+
+/* BEER STYLES */
+.description h2  {
+  margin-top: 1.2em;
 }
 
 /* BLOG STYLES */

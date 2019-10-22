@@ -5,16 +5,18 @@ title: beers
 <div class="container beers-container favs-container">
   <div class="title">
     <h1>My Fav Beers</h1>
+    <p>飲んで美味しかったビールを載せています。</p>
   </div>
 
   <div class="body favs-wrapper">
-    {% assign beers = site.beers %}
+    {% assign beers = site.beers | sort: 'drink_date' | reverse %}
     {% for beer in beers limit:9 %}
       <div class="beer-box fav-box">
         <a class="link-icon" href="{{ beer.url }}">
           <img src="{{ beer.image_path }}" alt="{{ beer.title }}">
         </a>
-        <h4>{{ beer.name }}</h4>
+        <h3>{{ beer.name }}</h3>
+        <h4>{{ beer.brewery }}</h4>
         <div class="beer-copy fav-copy">
           {{ beer.excerpt }}
         </div>
@@ -23,5 +25,7 @@ title: beers
 
     </div>
     <!-- TODO: link to mores -->
-    <p>...and more!</p>
+    {% if beers.size > 9 %}
+      <p>...and more!</p>
+    {% endif %}
   </div>

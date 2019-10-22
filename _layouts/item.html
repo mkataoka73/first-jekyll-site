@@ -2,13 +2,11 @@
 layout: default
 ---
 <div class="item-wrapper">
+  <h1 class="title">{{ page.name }}</h1>
   <div class="item-img">
     <img src="{{ page.image_path }}" alt="{{ page.title }}">
   </div>
   <div class="text-area">
-    <div class="item-name">
-      <h2 class="title">{{ page.title }}</h2>
-    </div>
     <div class="description">
       {{ content }}
     </div>
