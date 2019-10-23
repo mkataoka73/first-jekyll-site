@@ -19,6 +19,7 @@ body {
 .center {
   text-align: center;
 }
+// img STYLES
 .circle {
   border-radius: 50%;
   margin: 1.5em auto 2em;
@@ -254,7 +255,7 @@ p {
   width: 200px;
 
   img {
-    border-radius: 50%;
+    // border-radius: 50%;
     display: block;
     margin: 0 auto;
     height: 20vw;
@@ -310,6 +311,18 @@ p {
 /* BEER STYLES */
 .description h2  {
   margin-top: 1.2em;
+}
+
+/* BOOK STYLES */
+.book-box img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+.book-img img {
+  border-radius: 0;
+  height: 60vw;
+  object-fit: contain;
 }
 
 /* BLOG STYLES */

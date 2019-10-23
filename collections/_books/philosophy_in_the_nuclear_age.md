@@ -1,8 +1,8 @@
 ---
-layout: item
+layout: book
 name: 原子力時代における哲学
 author: 國分功一郎
-image_path: /images/open-book.svg
+image_path: /images/books/philosophy_in_the_nuclear_age.jpg
 index: 1
 ---
 Lorem ipsum dolor sit amet,

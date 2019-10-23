@@ -13,7 +13,7 @@ title: beers
     {% for beer in beers limit:9 %}
       <div class="beer-box fav-box">
         <a class="link-icon" href="{{ beer.url }}">
-          <img src="{{ beer.image_path }}" alt="{{ beer.title }}">
+          <img class="circle" src="{{ beer.image_path }}" alt="{{ beer.title }}">
         </a>
         <h3>{{ beer.name }}</h3>
         <h4>{{ beer.brewery }}</h4>

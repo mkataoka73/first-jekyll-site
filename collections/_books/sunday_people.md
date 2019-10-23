@@ -1,9 +1,10 @@
 ---
-layout: item
-name: 観光客の哲学
-author: 東浩紀
-image_path: /images/open-book.svg
-index: 2
+layout: book
+name: 日曜日の人々
+author: 高橋弘希
+type: novel
+image_path: /images/books/sunday_people.jpg
+index: 3
 ---
 Lorem ipsum dolor sit amet,
 

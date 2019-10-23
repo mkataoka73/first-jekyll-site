@@ -12,7 +12,7 @@ title: books
     {% for book in books limit:9 %}
       <div class="book-box fav-box">
         <a class="link-icon" href="{{ book.url }}">
-          <img src="/images/open-book.svg" alt="{{ book.title }}">
+          <img src="{{ book.image_path }}" alt="{{ book.title }}">
         </a>
         <h4>{{ book.name }}</h4>
         <h4>{{ book.author }}</h4>
