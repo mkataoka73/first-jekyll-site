@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 body {
   background-color: #eee;
   color: #333333;
@@ -10,8 +11,9 @@ body {
 }
 
 .text-area {
-  max-width: 600px;
+  width: 40%;
   margin: auto;
+	text-align: justify;
 }
 
 .title {
@@ -26,7 +28,6 @@ body {
   border-radius: 50%;
   margin: 1.5em auto 2em;
 }
-
 a {
   border-radius: 1.5px;
   color: #43853d;
@@ -185,7 +186,9 @@ p {
 .about-container {
   text-align: center;
 }
-
+.text-wrapper {
+	width: 40%;
+}
 .prof-img {
   margin: 3em auto 2em;
 }
@@ -315,6 +318,7 @@ p {
 }
 .blog-post h2, .blog-post h3 {
   text-transform: capitalize;
+  text-align: center;
 }
 .blog-post p {
   margin: 0 auto 25px;
@@ -322,10 +326,26 @@ p {
   /* max-width: 600px; */
   text-align: justify;
 }
-.blog-post img {
-  width: 40%;
+.post-body h2 {
+  text-align: center;
+  margin: 2em auto 4em;
+  position: relative;
+}
+.post-body h2::before {
+  width: 20%;
+  height: 1px;
+  content: "";
+  background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  position: absolute;
+  opacity: 0.5;
+  top: 4.6rem;
+  left: 40%;
+}
+.blog-img {
+  width: 40vw;
   display: block;
-  margin: auto;
+  margin: 2em auto;
+  box-shadow: 0 0 5px gray;
 }
 
 .caption {

@@ -1,0 +1,27 @@
+I"�<p>久々の投稿。ウェブ系の勉強が進まなくなっていたことを書こうかと思っていた。</p>
+
+<h2 id="ruby">Ruby</h2>
+<p>Learn EnoughではJavaScriptを終えてRubyのコースに入った。</p>
+
+<p>書いているコードとしてはJSの時と一緒だから、やることの予想がつきやすい〜って書いていた人がいたけれど、確かにそれはそう。</p>
+
+<p>それで、ちょっとなんだろう、新しいことをやっているわくわくがないっていうのも、悩みのポイントなのかもしれない。停滞感の。</p>
+
+<h2 id="javascript">JavaScript</h2>
+
+<p>JavaScriptの勉強に入ってから、格段にCSSより難しくなったと思った。それで自信を無くしているのかもしれない。</p>
+
+<h2 id="vim">Vim</h2>
+
+<p>久しぶりにVimのことを調べた。それで楽しくなった。</p>
+
+<p>まだ難しいけど。もっとVimでコードがかけるようにしたい。</p>
+
+<p>AtomにもプラグインというかThemeを入れて、今はこんな感じで書いている。</p>
+
+<p><img src="/images/blog/atom-editing.png" alt="atom editing" class="blog-img" /></p>
+
+<p>これじゃ見えないよね。エディタの文字を SourceHanCodeJP-Regular にしたのだ。あとカラーをMaterialにしたり。</p>
+
+<p>JavaScriptの色はNinja Atomが好きだったんだけど、Rubyのハイライトが微妙だったので今はこっちにしている。</p>
+:ET
