@@ -326,6 +326,9 @@ p {
   /* max-width: 600px; */
   text-align: justify;
 }
+.post-body h1 {
+  text-align: center;
+}
 .post-body h2 {
   text-align: center;
   margin: 2em auto 4em;
