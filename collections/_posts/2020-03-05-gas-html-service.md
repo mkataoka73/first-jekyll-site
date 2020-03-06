@@ -1,12 +1,10 @@
 ---
 layout: post
 title: GASのHTMLServiceクラスのメソッドをまとめる
-title_english:
 date: 2020-3-5
 tag: [programming, gas]
 image_path: images/cookings/buri-no-teriyaki.jpeg
 ---
-## 概要
 Google Apps Scriptの、[Class HtmlServiceページ](https://developers.google.com/apps-script/reference/html/html-service)を訳す。
 
 ## 背景
