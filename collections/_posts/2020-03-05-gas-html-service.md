@@ -1,11 +1,11 @@
 ---
 layout: post
-title: GASのHTMLServiceクラスのメソッドをまとめる
+title: Google Apps ScriptドキュメントClass HTMLServiceページを和訳する
 date: 2020-3-5
 tag: [programming, gas]
 description: Google Apps Script(GAS)のHTML Serviceクラスのドキュメントページの日本語訳です。
 ---
-Google Apps Scriptの、[Class HtmlServiceページ](https://developers.google.com/apps-script/reference/html/html-service)を訳す。
+Google Apps Scriptの、[Class HtmlServiceページ](https://developers.google.com/apps-script/reference/html/html-service)の和訳です。
 
 ## 背景
 Google Apps Scriptで、モーダルウィンドウを持ったシートのアプリを作りたい。英単語テストアプリで、諸々の設定情報を一気に入れられるHTMLフォームを作るのが目標。
