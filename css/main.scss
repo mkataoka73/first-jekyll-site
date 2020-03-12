@@ -1,10 +1,34 @@
 /* GLOBAL STYLES */
 
+@import 'syntax.css';
+$green: #43853d;
+$moss-green: #234520;
+$pale-green: #d3e8d7;
+
 body {
   background-color: #eee;
   color: #111;
   font-family: 'Lato', sans-serif;
   font-size: 0.85em;
+}
+
+p code, li code, table code {
+  font-size: 1em;
+  font-family: 'Roboto Mono',monospace;
+  font-weight: 400;
+  color: $green;
+  padding: 0 4px;
+  display: inline-block;
+  background-color: $pale-green;
+}
+
+.highlight {
+  padding: 5px 10px;
+  line-height: 1.7;
+  letter-spacing: 1.5px;
+  font-size: 1.1em;
+  word-break: break-all;
+  white-space: pre-wrap;
 }
 
 .container {
@@ -29,17 +53,17 @@ body {
 
 a {
   border-radius: 1.5px;
-  color: #43853d;
+  color: $green;
   padding: 0.1rem;
   text-decoration: none;
   transition: color 0.3s ease;
 
   &:visited {
-    color: #43853d;
+    color: $green;
   }
 
   &:hover {
-    background-color: #43853d;
+    background-color: $green;
     color: #fff;
   }
 
@@ -468,6 +492,8 @@ p {
     margin-right: 1em;
   }
 }
+
+
 
 /* FOOTER STYLES */
 

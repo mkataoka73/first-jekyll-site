@@ -8,6 +8,8 @@ google_analytics: UA-150948074-2
 future: true
 timezone: Asia/Tokyo
 
+highlighter: rouge
+
 collections_dir: collections
 
 collections:
