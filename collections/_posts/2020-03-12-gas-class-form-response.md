@@ -1,11 +1,11 @@
 ---
 layout: post
-title: GASでフォームの送信とシートの記録を含んだ結合テストを書く
+title: Google Apps ScriptドキュメントFormResponseページを和訳する
 date: 2020-3-12
 tag: [programming, gas]
 description: Google Apps Script(GAS)のFormResponseクラスのドキュメントページの日本語訳です。
 ---
-Google Apps Scriptの、[Class FormResponseページ](https://developers.google.com/apps-script/reference/forms/form-response)を訳す。
+Google Apps Scriptの、[Class FormResponseページ](https://developers.google.com/apps-script/reference/forms/form-response)の和訳です。
 
 ## FormResponseクラス
 
