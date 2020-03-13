@@ -2,9 +2,13 @@
 
 @import 'syntax.scss';
 
+/* color variables */
 $green: #43853d;
 $moss-green: #234520;
 $pale-green: #d3e8d7;
+
+/* text variables */
+$smaller-font: 0.9em;
 
 body {
   background-color: #eee;
@@ -422,15 +426,14 @@ p {
   }
 
   /* individual page */
-  
+
   .post-data {
-    p {
-      text-align: center;
-    }
+    font-size: $smaller-font;
+    text-align: center;
   }
 
   .post-body {
-    margin: auto;
+    margin:  10vh auto 0;
 
     h1 {
       text-align: center;
@@ -494,8 +497,6 @@ p {
     }
   }
 }
-
-
 
 /* FOOTER STYLES */
 

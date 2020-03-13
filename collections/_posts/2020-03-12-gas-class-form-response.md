@@ -2,7 +2,7 @@
 layout: post
 title: Google Apps ScriptドキュメントFormResponseページを和訳する
 date: 2020-3-12
-tag: [programming, gas]
+tags: [programming, gas]
 description: Google Apps Script(GAS)のFormResponseクラスのドキュメントページの日本語訳です。
 ---
 Google Apps Scriptの、[Class FormResponseページ](https://developers.google.com/apps-script/reference/forms/form-response){:target="_blank"_, :rel="noopener"}の和訳です。
