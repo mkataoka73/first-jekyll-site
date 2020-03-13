@@ -5,14 +5,16 @@ date: 2020-3-12
 tag: [programming, gas]
 description: Google Apps Script(GAS)のFormResponseクラスのドキュメントページの日本語訳です。
 ---
-Google Apps Scriptの、[Class FormResponseページ](https://developers.google.com/apps-script/reference/forms/form-response)の和訳です。
+Google Apps Scriptの、[Class FormResponseページ](https://developers.google.com/apps-script/reference/forms/form-response){:target="_blank"_, :rel="noopener"}の和訳です。
 
 ## FormResponseクラス
 
-フォームへの1つの回答の全体。<code>FormResponse</code>には3つの使用法があります。
-- 回答者により送信された回答にアクセスする（<code>getItemResponses()</code>を参照）、
--  スクリプト上からフォームへと回答を送信する（<code>withItemResponse(response)</code>および<code>submit()</code>を参照）、
--  回答を事前入力したURLを生成する。
+<code>FormResponse</code>はフォームへの回答の全体を表し、3つの使用法があります。
+1. 回答者により送信された回答にアクセスする（参照：<code>getItemResponses()</code>）、
+2. スクリプト上からフォームの回答を送信する（参照：<code>withItemResponse(response)</code>および<code>submit()</code>）、
+3. 回答を事前入力したURLを生成する
+
+の3つです。
 
 <code>FormResponse</code>は<code>Form</code>クラスから作成とアクセスが可能です。
 
