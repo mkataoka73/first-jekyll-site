@@ -25,3 +25,6 @@ collections:
    movies:
      output: true
      url: /favorites/movies.html
+   english:
+     output: true
+     url: /favorites/english.html
