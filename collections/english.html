@@ -1,0 +1,29 @@
+---
+layout: item
+title: English
+image_path: /images/languages.svg
+---
+
+<div class="container movies-container favs-container">
+  <div class="title">
+    <h1>My Fav Movies</h1>
+  </div>
+
+  <div class="body favs-wrapper">
+    {% assign english = site.english %}
+    {% for english in english limit:9 %}
+      <div class="english-box fav-box">
+        <a class="link-icon" href="{{ english.url }}">
+          <img src="/images/languages.svg" alt="{{ english.title }}">
+        </a>
+        <h3>{{ english.title }}</h3>
+        <div class="english-copy fav-copy">
+          {{ english.excerpt | remove: '背景' }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>

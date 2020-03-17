@@ -15,16 +15,16 @@ collections_dir: collections
 collections:
    beers:
      output: true
-     url: /favorites/beers.html
+     url: /collections/beers.html
    books:
      output: true
-     url: /favorites/books.html
+     url: /collections/books.html
    musics:
      output: true
-     url: /favorites/musics.html
+     url: /collections/musics.html
    movies:
      output: true
-     url: /favorites/movies.html
+     url: /collections/movies.html
    english:
      output: true
-     url: /favorites/english.html
+     url: /collections/english.html
