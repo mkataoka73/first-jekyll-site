@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Apps ScriptドキュメントClass HTMLServiceページを和訳する
+title: 【GASドキュメント翻訳】HtmlService
 date: 2020-3-5
 tag: [programming, gas]
 description: Google Apps Script(GAS)のHTML Serviceクラスのドキュメントページの日本語訳です。
