@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Apps ScriptドキュメントFormResponseページを和訳する
+title: 【GASドキュメント翻訳】FormResponse
 date: 2020-3-12
 tags: [programming, gas]
 description: Google Apps Script(GAS)のFormResponseクラスのドキュメントページの日本語訳です。
