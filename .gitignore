@@ -2,5 +2,4 @@ _site
 .jekyll-cache
 .sass-cache
 css/.sass-cache
-css/main.css.map
-css/syntax.css.map
+*.map

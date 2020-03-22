@@ -1,6 +1,7 @@
 /* GLOBAL STYLES */
 
 @import 'syntax.scss';
+@import "english.scss";
 
 /* color variables */
 $green: #43853d;
@@ -446,12 +447,30 @@ p {
 
       &::before {
         width: 100%;
-        height: 1px;
+        height: 2px;
         content: "";
         background-color: #31573b;
         position: absolute;
         opacity: 0.5;
         top: 2.5rem;
+      }
+
+    }
+
+    h3 {
+      text-align: left;
+      margin: 2em auto;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        width: 120%;
+        height: 2px;
+        content: "";
+        background-color: #31573b;
+        position: absolute;
+        opacity: 0.5;
+        top: 1.7rem;
       }
     }
 
