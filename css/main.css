@@ -87,6 +87,34 @@
 .highlight .ss {
   color: #83a598; }
 
+figcaption {
+  color: #696969;
+  font-size: 0.9em;
+  margin-bottom: 5px; }
+
+.post-body .ex__sentence {
+  margin: 20px 60px;
+  padding: 40px;
+  background: #c5d4c9;
+  ruby-position: after;
+  -moz-ruby-position: after;
+  -webkit-ruby-position: after;
+  letter-spacing: .05em; }
+
+.ex__sentence--en {
+  font-size: 24px; }
+
+.ex__sentence--jp {
+  font-size: 16px;
+  margin-top: 12px; }
+
+.ex__sentence rt {
+  text-align: center;
+  color: #555; }
+
+.verb--highlighted {
+  color: red; }
+
 /* color variables */
 /* text variables */
 body {
