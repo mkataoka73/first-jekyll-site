@@ -1,6 +1,6 @@
 ---
 layout: post
-title: toとforの違い
+title: 前置詞toとforの使い分け
 tags: [前置詞]
 ---
 
@@ -94,19 +94,20 @@ tags: [前置詞]
 <p>leave for（出発する）は移動を意味するので、to の方がふさわしいと思う方もいるでしょう。これについてはあとで詳しく説明します。</p>
 
 <h2 id="例外的な単語">例外的な単語</h2>
-<p>toの方がふさわしく思えるが、実際にはforが使われる単語に対して、考え方を説明します。</p>
+<p>to と for の使い分けについて説明してきました。ここでは、上の原則にしたがって考えた時、やや分かりにくい例を説明します。</p>
+
+<p>具体的には、原則通り考えるとtoの方がふさわしいように思えるのに、実際にはforが使われる形について、どうしてそのようになっているのかを考えてみます。</p>
 
 <h3 id="leave-for">leave for</h3>
-<p>leave for〈名詞〉には出発するという意味があります。移動を表すのになぜ to ではないのでしょうか？</p>
+<p>例えば、「We are going to leave Osaka for Nara newt week.」といえば、大阪から奈良に向けて、来週には出発するという意味になります。ここには移動が含まれていますが、to ではなく for が使われています。なぜでしょうか？</p>
 
-<p>この場合は leave 単体の意味を考える必要があります。leave は</p>
+<p>これには leave という動詞単体での意味が関連しています。leaveを使った次の例文を見てください。</p>
+
+<div class="ex__sentence">
+  <p class="ex__sentence--en">Don't leave me.</p>
+  <p class="ex__sentence--jp">置いていかないで。</p>
+</div>
 
 <h3 id="be-bound-for">be bound for</h3>
 
 <p>電車に乗っていて、「This train is bound for Shinjuku.（この電車は新宿行きです）」というアナウンスを聞いた覚えがある人もいるかもしれません。</p>
-
-<h3 id="make-for">make for</h3>
-
-<p>a</p>
-
-<h3 id="head-for">head for</h3>
