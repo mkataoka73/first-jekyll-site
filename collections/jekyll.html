@@ -1,0 +1,30 @@
+---
+layout: item
+title: Jekyll
+image_path: /images/jekyll.svg
+---
+
+<div class="container movies-container favs-container">
+  <div class="title">
+    <h1>Articles on Jekyll</h1>
+    <p>静的サイトビルダーJekyllについての記事です</p>
+  </div>
+
+  <div class="body favs-wrapper">
+    {% assign jekyll = site.jekyll %}
+    {% for jekyll in jekyll limit:9 %}
+      <div class="english-box fav-box">
+        <a class="link-icon" href="{{ jekyll.url }}">
+          <img src="/images/jekyll.svg" alt="{{ jekyll.title }}">
+        </a>
+        <h3>{{ jekyll.title }}</h3>
+        <div class="english-copy fav-copy">
+          {{ jekyll.excerpt | remove: '背景' }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>

@@ -1,0 +1,30 @@
+---
+layout: item
+title: Koten(Japanese classics)
+image_path: /images/languages.svg
+---
+
+<div class="container movies-container favs-container">
+  <div class="title">
+    <h1>Articles on Japanese Classics</h1>
+    <p>古典についてのTipsや学術(?)記事。</p>
+  </div>
+
+  <div class="body favs-wrapper">
+    {% assign koten = site.koten %}
+    {% for koten in koten limit:9 %}
+      <div class="english-box fav-box">
+        <a class="link-icon" href="{{ koten.url }}">
+          <img src="/images/languages.svg" alt="{{ koten.title }}">
+        </a>
+        <h3>{{ koten.title }}</h3>
+        <div class="english-copy fav-copy">
+          {{ koten.excerpt | remove: '背景' }}
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+    <!-- TODO: link to mores -->
+    <p>...and more!</p>
+  </div>

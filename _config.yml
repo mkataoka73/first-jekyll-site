@@ -28,3 +28,9 @@ collections:
    english:
      output: true
      url: /collections/english.html
+   koten:
+     output: true
+     url: /collections/koten.html
+   jekyll:
+     output: true
+     url: /collections/jekyll.html
