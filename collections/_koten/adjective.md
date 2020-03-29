@@ -1,6 +1,7 @@
 ---
 title: 形容詞
 layout: post
+published: false
 ---
 
 - ク活用とシク活用
