@@ -1,7 +1,10 @@
-/* GLOBAL STYLES */
+---
+---
 
-@import 'syntax.scss';
-@import "english.scss";
+/* GLOBAL STYLES */
+@import 'syntax';
+@import "english";
+@import 'dialogue';
 
 /* color variables */
 $green: #43853d;
@@ -22,20 +25,26 @@ p code, li code, table code {
   font-size: 1em;
   font-family: 'Roboto Mono',monospace;
   font-weight: 400;
-  color: $green;
+  color: #c7254e;
   padding: 0 4px;
   display: inline-block;
-  background-color: $pale-green;
+  // background-color: #d3e8d7;
 }
 
 .highlight {
   padding: 5px 10px;
   line-height: 1.7;
   letter-spacing: 1.5px;
-  font-size: 1.1em;
-  word-break: break-all;
-  white-space: pre-wrap;
+  font-size: 1.05em;
+  overflow-x: auto;
+
+  -ms-overflow-style: none;
+
+  ::-webkit-scrollbar {
+   display: none;
+  }
 }
+
 
 .container {
   margin: auto;
@@ -45,7 +54,22 @@ p code, li code, table code {
 .text-area {
   width: 80%;
   margin: auto;
+  max-width: 700px;
   text-align: justify;
+
+  .code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+  }
+
+  .keybinding {
+    color: #0072be;
+    background-color: #f4f2f9;
+  }
+
+  .tutorial-img {
+    width: 100%;
+  }
 }
 
 .title, .center {
@@ -517,6 +541,8 @@ p {
   }
 }
 
+/* DIALOGUE STYLES */
+
 /* FOOTER STYLES */
 
 .footer {
@@ -536,6 +562,9 @@ p {
 }
 
 @media (max-width: 500px) {
+  .header-logo {
+    display: none;
+  }
   .container {
     width: 95%;
   }
