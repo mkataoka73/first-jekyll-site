@@ -1,14 +1,14 @@
 /*
-Error: Invalid CSS after "@import 'syntax'": expected "{", was ";"
+Error: Invalid CSS after "@import "syntax"": expected "{", was ";"
         on line 5 of assets/css/main.scss
 
 1: ---
 2: ---
 3: 
 4: /* GLOBAL STYLES *\/
-5: @import 'syntax';
+5: @import "syntax";
 6: @import "english";
-7: @import 'dialogue';
+7: @import "dialogue";
 8: 
 9: /* color variables *\/
 10: $green: #43853d;
@@ -45,4 +45,4 @@ assets/css/main.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import 'syntax'\": expected \"{\", was \";\"\A         on line 5 of assets/css/main.scss\A \A 1: ---\A 2: ---\A 3: \A 4: /* GLOBAL STYLES */\A 5: @import 'syntax';\A 6: @import \"english\";\A 7: @import 'dialogue';\A 8: \A 9: /* color variables */\A 10: $green: #43853d;"; }
+  content: "Error: Invalid CSS after \"@import \"syntax\"\": expected \"{\", was \";\"\A         on line 5 of assets/css/main.scss\A \A 1: ---\A 2: ---\A 3: \A 4: /* GLOBAL STYLES */\A 5: @import \"syntax\";\A 6: @import \"english\";\A 7: @import \"dialogue\";\A 8: \A 9: /* color variables */\A 10: $green: #43853d;"; }
