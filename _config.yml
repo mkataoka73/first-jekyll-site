@@ -11,6 +11,8 @@ timezone: Asia/Tokyo
 highlighter: rouge
 
 collections_dir: collections
+sass:
+    sass_dir: _sass
 
 collections:
    beers:
