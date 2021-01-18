@@ -1,6 +1,7 @@
 ---
 title: hoge
 layout: dialogue
+published: false
 ---
 
 <div class="right">
@@ -17,6 +18,6 @@ layout: dialogue
 
 <div class="right">
   <p class="bl">
-    
+
   </p>
 </div>

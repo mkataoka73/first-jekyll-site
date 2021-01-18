@@ -2,6 +2,7 @@
 layout: dialogue
 title: 生徒と先生の会話
 tags: [test, dialogue]
+published: false
 ---
 
 <div class="right"><p class="bl">先生、先生</p></div>
