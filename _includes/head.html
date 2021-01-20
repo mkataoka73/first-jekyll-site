@@ -3,7 +3,14 @@
 <meta name="description" content="{{ page.description }}">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:100,300,400|Noto+Sans|Roboto+Mono:400,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/main.css">
-<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="alternate" type="application/rss+xml" title="My Site RSS" href="/feed.xml" />
+<title>{{ page.title }} | {{ site.name }}</title>
+
+<!-- Mathjax Support -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 {% if jekyll.environment == 'production' %}
   {% include analytics.html %}

@@ -1,4 +1,4 @@
-title: Masayoshi Kataoka
+name: Masayoshi Kataoka's Home Page
 email: mkataoka73@gmail.com
 description: Masayoshi Kataoka's home page.
 
@@ -12,27 +12,27 @@ highlighter: rouge
 
 collections_dir: collections
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 
 collections:
-   beers:
-     output: true
-     url: /collections/beers.html
-   books:
-     output: true
-     url: /collections/books.html
-   musics:
-     output: true
-     url: /collections/musics.html
-   movies:
-     output: true
-     url: /collections/movies.html
-   english:
-     output: true
-     url: /collections/english.html
-   koten:
-     output: true
-     url: /collections/koten.html
-   jekyll:
-     output: true
-     url: /collections/jekyll.html
+  beers:
+    output: true
+    url: /collections/beers.html
+  books:
+    output: true
+    url: /collections/books.html
+  musics:
+    output: true
+    url: /collections/musics.html
+  movies:
+    output: true
+    url: /collections/movies.html
+  english:
+    output: true
+    url: /collections/english.html
+  koten:
+    output: true
+    url: /collections/koten.html
+  jekyll:
+    output: true
+    url: /collections/jekyll.html
