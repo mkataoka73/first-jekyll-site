@@ -2,6 +2,8 @@
 ---
 
 /* GLOBAL STYLES */
+// @import "reset";
+@import "reset";
 @import "syntax";
 @import "english";
 @import "dialogue";
@@ -23,7 +25,6 @@ body {
 
 p code, li code, table code {
   font-size: 1em;
-  font-family: 'Roboto Mono',monospace;
   font-weight: 400;
   color: #c7254e;
   padding: 0 4px;
@@ -34,8 +35,9 @@ p code, li code, table code {
 .highlight {
   padding: 5px 10px;
   line-height: 1.7;
-  letter-spacing: 1.5px;
+  // letter-spacing: 1.5px;
   font-size: 1.05em;
+  font-size: 12px;
   overflow-x: auto;
 
   -ms-overflow-style: none;
