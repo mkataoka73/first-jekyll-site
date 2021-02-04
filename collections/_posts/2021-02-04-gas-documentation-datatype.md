@@ -2,7 +2,7 @@
 title: 引数のデータ型にGAS固有オブジェクトを指定する方法
 layout: post
 tags: GAS
-image: /images/at.svg
+image: /images/at.png
 ---
 
 この記事では、GASでドキュメンテーションコメントを書く際に、GAS独自のオブジェクトをデータ型に指定するにはどうすればよいかを説明しています。
