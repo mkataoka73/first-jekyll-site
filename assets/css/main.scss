@@ -24,11 +24,13 @@ body {
 }
 
 p code, li code, table code {
-  font-size: 1em;
+  font-size: .95em;
   font-weight: 400;
+  font-family: "Source Han Code JP", monospace;
   color: #c7254e;
   padding: 0 4px;
   display: inline-block;
+  border-radius: 2px;
   // background-color: #d3e8d7;
 }
 
@@ -57,7 +59,8 @@ p code, li code, table code {
   width: 80%;
   margin: auto;
   max-width: 700px;
-  text-align: justify;
+  text-align: left;
+  word-wrap: break-word;
 
   .code {
     color: #c7254e;
@@ -67,6 +70,11 @@ p code, li code, table code {
   .keybinding {
     color: #0072be;
     background-color: #f4f2f9;
+  }
+
+  .img {
+    margin: auto;
+    display: block;
   }
 
   .tutorial-img {
@@ -439,7 +447,8 @@ p {
 
   .caption {
     text-align: center;
-    font-size: 0.75em;
+    color: #555;
+    font-size: 0.8em;
     font-style: italic;
     font-weight: normal;
     margin-top: 1em;
@@ -498,6 +507,17 @@ p {
         opacity: 0.5;
         top: 1.7rem;
       }
+    }
+
+    .block {
+      border: 2px dashed #aaa;
+      border-radius: 10px;
+      // padding: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      // padding-left: 0;
     }
 
   table {
