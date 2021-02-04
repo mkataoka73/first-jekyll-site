@@ -20,6 +20,11 @@
         <link>
         {{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <image>
+          <url>{{ site.url }}{{ post.image }}</url>
+          <link>{{ site.url }}{{ post.image }}</link>
+          <title>{{ post.image }}</title>
+        </image>
       </item>
       {% endunless %}
     {% endfor %}
