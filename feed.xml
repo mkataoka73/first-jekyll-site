@@ -20,11 +20,13 @@
         <link>
         {{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-        <image>
-          <url>{{ site.url }}{{ post.image }}</url>
-          <link>{{ site.url }}{{ post.image }}</link>
-          <title>{{ post.image }}</title>
-        </image>
+        {% if post.image %}
+          <image>
+            <url>{{ site.url }}/images/{{ post.image }}</url>
+            <link>{{ site.url }}</link>
+            <title>{{ post.title }}</title>
+          </image>
+        {% endif %}
       </item>
       {% endunless %}
     {% endfor %}
