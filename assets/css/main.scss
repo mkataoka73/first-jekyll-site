@@ -16,6 +16,7 @@ $pale-green: #d3e8d7;
 /* text variables */
 $smaller-font: 0.9em;
 
+/* main */
 body {
   background-color: #eee;
   color: #111;
@@ -32,6 +33,11 @@ p code, li code, table code {
   display: inline-block;
   border-radius: 2px;
   // background-color: #d3e8d7;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 .highlight {
@@ -75,10 +81,15 @@ p code, li code, table code {
   .img {
     margin: auto;
     display: block;
+    width: 100%;
   }
 
   .tutorial-img {
     width: 100%;
+  }
+
+  .expression {
+    text-align: center;
   }
 }
 
@@ -405,7 +416,7 @@ p {
     margin-top: 3em;
   }
 
-  .blog-post {
+  .post-body {
     .entry-title {
       letter-spacing: 0.3px;
     }
@@ -416,12 +427,15 @@ p {
     }
 
     .blog-hero {
-      height: 40vh;
-      width: 100%;
+
+      height: 100%;
+      width: 80%;
       margin-bottom: 3em;
       object-fit: cover;
-      object-position: top;
+      object-position: center;
       overflow: hidden;
+      display: block;
+      margin: auto;
     }
 
     h2, h3 {
@@ -487,7 +501,8 @@ p {
         background-color: #31573b;
         position: absolute;
         opacity: 0.5;
-        top: 2.5rem;
+        // top: 2.5rem;
+        bottom: -10px;
       }
 
     }
