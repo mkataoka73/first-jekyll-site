@@ -3,3 +3,7 @@ _site
 .sass-cache
 css/.sass-cache
 *.map
+log
+raft
+rafts
+tmp
