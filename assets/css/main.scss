@@ -39,10 +39,6 @@ ul, ol {
   padding-left: 5px;
 }
 
-li {
-  margin: 5px 0;
-}
-
 .highlight {
   padding: 5px 10px;
   line-height: 1.7;
@@ -70,6 +66,10 @@ li {
   max-width: 700px;
   text-align: left;
   word-wrap: break-word;
+
+  li {
+    margin: 5px 0;
+  }
 
   .code {
     color: #c7254e;
