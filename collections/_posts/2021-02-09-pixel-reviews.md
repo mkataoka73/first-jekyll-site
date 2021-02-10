@@ -2,11 +2,11 @@
 layout: post
 title: Pixel4aに乗り換えるときに参考にしたものたち
 tags: [gagets,Pixel 4a]
-image: blog/pixel4a.jpg
+image: /images/blog/pixel4a.jpg
 excerpt: スマホデビュー以来iPhoneユーザーだった自分が、昨年末にiPhone SE（第1世代）からPixel 4aに乗り換えたときに背中を参考にしたものたちを紹介します。
 ---
 
-![pixel4a](/images/{{ page.image }}){:.blog-hero}
+![pixel4a]({{ page.image }}){:.blog-hero}
 
 こんにちは、ちぇんです。私が初めてスマホを買ったのは2008年くらいのはずですが、その時も含めずっとiPhone一択でした。が、去年の年末、思い切ってPixelを買ってみました。
 
