@@ -7,14 +7,7 @@ layout: default
   <div class="post-data">
     <p class="post-date">{{ page.date | date: '%B %d, %Y'}}</p>
     <p class="post-tag">
-      tags:
-      {% for tag in page.tags %}
-        {% if tag != page.tags.last %}
-          {{ tag }},
-        {% else %}
-          {{ tag }}
-        {% endif %}
-      {% endfor %}
+      tags: {{ page.tags | join: ", " }}
     </p>
 
   </div>
