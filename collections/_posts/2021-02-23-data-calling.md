@@ -4,7 +4,10 @@ layout: post
 date: 2021-02-20
 tags: programming
 excerpt: 「値渡し」と「参照渡し」の違いについて調べたことのメモを残しました。
+image: /images/blog/passing-data.jpg
 ---
+
+![passing]({{ page.image }}){:.blog-hero}
 
 [ノンプロ研](https://tonari-it.com/community-nonpro-semi/)中級GAS講座の復習。「値渡しと参照渡し」について、調べたことのメモ。
 
