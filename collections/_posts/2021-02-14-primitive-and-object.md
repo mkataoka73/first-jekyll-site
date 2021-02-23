@@ -71,7 +71,7 @@ JSではプリミティブ型はオブジェクトではないため、本来な
 | 数値(Number)       | `42`                 | `new Number(42)`       |
 | 巨大な数値(BigInt) | `9007199254740992n`  | `new BigInt()`         |
 | 文字列(String)     | `"foobar"`           | `new String('foobar')` |
-| undefined          | 存在しない          | ?                      |
+| undefined          | 存在しない           | ?                      |
 | null               | `null`               | ?                      |
 | シンボル(Symbol)   | ?                    | `new Symbol()`         |
 
