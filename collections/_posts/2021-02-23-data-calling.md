@@ -15,6 +15,12 @@ image: /images/blog/passing-data.jpg
 - [プログラミング基礎 - Qiita](https://qiita.com/TAKUYA-110/items/e289a07d3333199711a2#13-%E3%83%A1%E3%83%A2%E3%83%AA){:target="_blank"}
 - [Values, Types, and Operators :: Eloquent JavaScript](https://eloquentjavascript.net/01_values.html#h_sVZPaxUSy/){:target="_blank"}
 
+## データを渡すということ
+
+プログラミングにおいて、ある変数に値を代入したり、関数の仮引数にデータを入れて使うことを、データを渡す、といいます。
+
+言葉だとわかりづらいですよね。
+
 ## 値渡しと参照渡しの違いを理解する（Ruby）
 
 まずはここをみました。Rubyという言語にもとづいているので、GASユーザーの方にとっては見慣れないコードも多いかもしれないです。翻訳？を載せます。
